@@ -1,4 +1,4 @@
-import { _ as __vitePreload } from './preload-helper-a73eb1e2.js';
+import { _ as __vitePreload } from './preload-helper-c37bd05e.js';
 
 function getDefaultExportFromCjs (x) {
 	return x && x.__esModule && Object.prototype.hasOwnProperty.call(x, 'default') ? x['default'] : x;
@@ -129,9 +129,9 @@ const remotesMap = {
                     return __federation_method_ensure(remoteName).then((remote) => remote.get(componentName).then(factory => factory()));
                 }
 
-const reactLogo = "http://localhost:9001/assets/react-35ef61ed.svg";
+const reactLogo = "https://huyndh1412.github.io/9001/assets/react-35ef61ed.svg";
 
-const viteLogo = "http://localhost:9001/assets/vite-4a748afd.svg";
+const viteLogo = "https://huyndh1412.github.io/9001/assets/vite-4a748afd.svg";
 
 const App$1 = '';
 

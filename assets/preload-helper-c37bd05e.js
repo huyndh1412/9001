@@ -3,7 +3,7 @@ const scriptRel = (function detectScriptRel() {
     return relList && relList.supports && relList.supports('modulepreload')
         ? 'modulepreload'
         : 'preload';
-})();const assetsURL = function(dep) { return "http://localhost:9001/"+dep };const seen = {};const __vitePreload = function preload(baseModule, deps, importerUrl) {
+})();const assetsURL = function(dep) { return "https://huyndh1412.github.io/9001/"+dep };const seen = {};const __vitePreload = function preload(baseModule, deps, importerUrl) {
     // @ts-expect-error true will be replaced with boolean later
     if (!true || !deps || deps.length === 0) {
         return baseModule();
