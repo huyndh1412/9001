@@ -2,7 +2,7 @@ import App, {
   r as reactExports,
   j as jsxRuntimeExports,
   R as React,
-} from "https://huyndh1412.github.io/9001/assets/federation_expose_ToolPortal-7e7fba1d.js";
+} from "./federation_expose_ToolPortal-7e7fba1d.js";
 
 var client = {};
 
@@ -8796,8 +8796,10 @@ var m = reactDomExports;
 
 const index = "";
 
-client.createRoot(document.getElementById("root")).render(
-  /* @__PURE__ */ jsxRuntimeExports.jsx(React.StrictMode, {
-    children: /* @__PURE__ */ jsxRuntimeExports.jsx(App, {}),
-  })
-);
+client
+  .createRoot(document.getElementById("root"))
+  .render(
+    /* @__PURE__ */ jsxRuntimeExports.jsx(React.StrictMode, {
+      children: /* @__PURE__ */ jsxRuntimeExports.jsx(App, {}),
+    })
+  );
